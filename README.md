@@ -46,3 +46,17 @@ The network processes text and image modalities simultaneously via separate feat
 
 ---
 
+## 👥 Project Contributions
+
+This project was developed through a collaborative effort, with responsibilities divided across data preparation, machine learning engineering, and architectural design as follows:
+
+* **David Alexander Haryono**
+  * Engineered the multi-modal fusion architecture, concatenating the textual and visual embeddings into a unified classification space.
+  * Configured the NLP pipeline using the pre-trained `bert-base-uncased` transformer to extract dense textual feature representations.
+  * Constructed and fine-tuned the final dense classification head layers, optimizing dropout rates to reduce overfitting.
+
+* **Evan Samuel Widjaja**
+  * Developed the computer vision feature extraction pipeline utilizing the pre-trained `ResNet50` backbone.
+  * Managed dataset handling, preprocessing, and sampling pipelines for the massive 106GB Fakeddit source data.
+  * Configured the end-to-end training loops and executed validation metrics to monitor model accuracy, precision, and recall.
+
