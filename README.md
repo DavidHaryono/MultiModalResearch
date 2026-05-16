@@ -6,6 +6,19 @@ Rather than relying purely on a text headline or an isolated image, this archite
 
 ---
 
+## 🚀 Getting Started & Execution Guide
+
+### ⚠️ Critical Warnings Before Running
+* **Execution Time:** Training this model over the full dataset takes a significant amount of time and computational resources. Even running evaluations or smaller samples requires noticeable processing overhead.
+* **Hardware Requirements:** It is **highly recommended** to run this project on a machine equipped with an NVIDIA GPU. 
+* **Dependencies:** Proper execution requires standard Deep Learning libraries and specialized compute platforms. Crucially, **CUDA** must be installed and configured correctly on your system to leverage GPU acceleration; running this strictly on a CPU will result in extremely slow performance.
+
+### 📋 Prerequisites & Installation
+1. Ensure you have Python 3.8+ and the appropriate NVIDIA CUDA Toolkit installed.
+2. Install all required libraries and dependencies by running:
+   ```bash
+   pip install -r requirements.txt
+
 ## 📊 Final Experimental Results & Evaluation
 
 The following metrics represent the finalized, peak performance of the deep multi-modal network over a complete **8-epoch training run** on the unseen public test partition of the **Fakeddit dataset**:
