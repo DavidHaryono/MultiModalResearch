@@ -1,0 +1,13 @@
+# Core Deep Learning Ecosystem
+torch>=1.13.0
+torchvision>=0.14.0
+transformers>=4.25.0
+
+# Data Engineering & Numerical Analysis
+pandas>=1.5.0
+numpy>=1.23.0
+scikit-learn>=1.1.0
+
+# Digital Imaging & Tracking Components
+Pillow>=9.3.0
+tqdm>=4.64.0
