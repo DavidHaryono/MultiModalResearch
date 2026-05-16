@@ -15,7 +15,7 @@ The following metrics represent the finalized, peak performance of the deep mult
 * **Recall:** `87.386%`
 * **F1-Score:** `83.613%`
 
-**KEEP IN MIND THAT THE STATIC RESULT OF THE CODE IS ONLY IN THE EARLY STAGES OF TRAINING, RESULTS MAY DIFFER.**
+**THIS RESULT ABOVE ARE ACHIEVED USING A DATASET OF 106GB, IN THIS REPOSITORY, A SMALLER SAMPLE IS USED, HENCE RESULT MAY DIFFER. KEEP IN MIND THAT THE STATIC RESULT OF THE CODE IS ONLY IN THE EARLY STAGES OF TRAINING, RESULTS MAY DIFFER. **
 
 ### 🔑 Technical Breakdown
 The standout achievement of this architecture is its high **87.386% Recall**. In trust-and-safety machine learning pipelines, maximizing recall is vital because it minimizes false negatives—ensuring that deceptive or harmful misinformation rarely leaks past the filter undetected.
