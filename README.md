@@ -33,12 +33,3 @@ The network processes text and image modalities simultaneously via separate feat
 
 ---
 
-## 📂 Project Directory Structure
-
-```text
-/multimodal-fake-news-detection
-│
-├── MultimodalFND.ipynb                 # Structural end-to-end training and architecture script
-├── Multimodal_FND_Research_Paper.pdf  # Formal finalized research paper/preprint
-├── requirements.txt                    # Production environment dependencies
-└── dataset_image/                      # Execution target directory for raw images
